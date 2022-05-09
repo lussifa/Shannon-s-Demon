@@ -11,7 +11,7 @@ import talib as ta
 import numpy as np
 import ccxt 
 symbols=['CAKE-PERP']
-hodl_num=230
+hodl_num=20
 ftx = ccxt.ftx({
     'enableRateLimit': True,
     'apiKey': '',
@@ -61,7 +61,7 @@ def trader(symbol):
     now_amount=fsize*last_price
     if symbol=='CAKE-PERP':
         order_size=0.1
-        if fsize>220 and fsize<260:
+        if fsize>-hodl_num and fsize<hodl_num:
             if now_amount<=init_amount-last_price:
                 a=ftx.create_order(symbol=symbol, type='limit',side='buy', amount=order_size, price=bid_price)
                 time.sleep(88)
