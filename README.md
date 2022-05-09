@@ -36,8 +36,7 @@ as the result the bot will buy the bottom and sell the top.
 
 # Buy me a coffee
 Use my ftx Affiliate Link you will get 30% of your fees back.
-https://ftx.com/referrals#a=7471063   
-Or:   
+https://ftx.com/referrals#a=7471063  Or:   
 BTC:   
 3BgGZG7ZJwjCWgXFseyHTnAeiHrXX4MS4B   
 DOGE:   
