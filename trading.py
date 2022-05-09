@@ -100,7 +100,7 @@ def get_trade_history(symbol):
  
 get_position(symbols[0])
 #print (entryprice,fsize,side,recentAverageOpenPrice,realizedPnl)
-init_amount=entryprice*fsize
+init_amount=entryprice*fsize*20 #Pretend you have alreay 20 cake-perp long position 
 while 1:
     try:
         trader(symbols[0])
